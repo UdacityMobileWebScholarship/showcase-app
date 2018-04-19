@@ -43,23 +43,23 @@ For bugs, please try to provide as much information possible to reproduce it as 
 5. Run the full project test suite, as described in the [readme](https://github.com/UdacityMobileWebScholarship/showcase-app/tree/master#user-content-project-set-up),
   and ensure that all tests pass.
 6. Commit your changes using a descriptive commit message. ex-
-```shell
-    git commit -m "doc: update readme"
-    git commit -m "ref: refactor API service"
-    git commit -m "feat: add authentication service"
-    or
-    git commit -m "Updates readme"
-    git commit -m "Refactor API Service"
-    git commit -m "Adds authentication service"
-```
+     ```shell
+     git commit -m "doc: update readme"
+     git commit -m "ref: refactor API service"
+     git commit -m "feat: add authentication service"
+     or
+     git commit -m "Updates readme"
+     git commit -m "Refactor API Service"
+     git commit -m "Adds authentication service"
+     ```
 note: it is not mandatory to write commit messages in the same format, a meaningful message is always helpful in understanding the purpose of the commit.
-7. Push your branch to GitHub:
 
-    ```shell
-    git push origin 9-my-fix-branch
-    ```
+7. Push your branch to GitHub
+     ```shell
+     git push origin 9-my-fix-branch
+     ```
 8. In GitHub, send a pull request to `showcase-app:master`.
-* If we suggest changes then:
+  If we suggest changes then:
   * Make the required updates.
   * Re-run the test suites to ensure tests are still passing.
   * Commit latest changes and push again to your branch

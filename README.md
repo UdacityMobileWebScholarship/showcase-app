@@ -8,7 +8,7 @@ For the PWA related functionalities, we've decided to build the prod SW file wit
 
 ### How to Contribute
 The best way to get started with contributing is to identify a feature, bug or module that is [open for contributions](https://github.com/UdacityMobileWebScholarship/showcase-app/labels/open%20for%20claim). Non-code contributions are also counted. You can contribute by helping people on issues board (for ex. someone is having trouble setting the repository and running app or any other queries).
-For code style and commit guidelines please see [CONTRIBUTING.md](https://github.com/UdacityMobileWebScholarship/showcase-app/blob/master/CONTRIBUTING.md) 
+For code style and commit guidelines please see [CONTRIBUTING.md](https://github.com/UdacityMobileWebScholarship/showcase-app/blob/master/.github/CONTRIBUTING.md) 
 
 ### Labels
 We are using Github labels to categorize issues and pull requests.

@@ -10,7 +10,7 @@ We would love for you to contribute to the project and help make it even better!
  - [Submission Guidelines](#submit)
 
 ## <a name="coc"></a> Code of Conduct
-Help us keep the project open and inclusive. Please read and follow our [Code of Conduct](https://github.com/UdacityMobileWebScholarship/showcase-app/blob/master/CODE_OF_CONDUCT.md).
+Help us keep the project open and inclusive. Please read and follow our [Code of Conduct](https://github.com/UdacityMobileWebScholarship/showcase-app/blob/master/.github/CODE_OF_CONDUCT.md).
 
 ## <a name="question"></a> Got a Question, Query or Problem?
 

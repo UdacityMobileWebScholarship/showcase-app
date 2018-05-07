@@ -56,39 +56,37 @@ Open folder you want to clone this repo into, then-
   <tbody>
     <tr>
       <td align="center" valign="top">
-        <img width="150" height="150" src="https://github.com/divyamrastogi.png?s=150">
+        <img width="75" height="75" src="https://github.com/divyamrastogi.png?s=150">
         <br>
         <a href="https://github.com/divyamrastogi">Divyam Rastogi</a>
       </td>
       <td align="center" valign="top">
-        <img width="150" height="150" src="https://github.com/palnabarun.png?s=150">
+        <img width="75" height="75" src="https://github.com/palnabarun.png?s=150">
         <br>
         <a href="https://github.com/palnabarun">Nabarun Pal</a>
       </td>
-      <td align="center" width="20%" valign="top">
-        <img width="150" height="150" src="https://github.com/ParthS007.png?s=150">
+      <td align="center" valign="top">
+        <img width="75" height="75" src="https://github.com/ParthS007.png?s=150">
         <br>
         <a href="https://github.com/ParthS007">Parth Shandilya</a>
       </td>
       <td align="center" valign="top">
-        <img width="150" height="150" src="https://github.com/PrabhanshuAttri.png?s=150">
+        <img width="75" height="75" src="https://github.com/PrabhanshuAttri.png?s=150">
         <br>
         <a href="https://github.com/PrabhanshuAttri">Prabhanshu Attri</a>
       </td>
-      </tr>
-      <tr>
       <td align="center" valign="top">
-        <img width="150" height="150" src="https://github.com/shubhshrma.png?s=150">
+        <img width="75" height="75" src="https://github.com/shubhshrma.png?s=150">
         <br>
         <a href="https://github.com/shubhshrma">Shubham Sharma</a>
       </td>
       <td align="center" valign="top">
-        <img width="150" height="150" src="https://github.com/realslimshanky.png?s=150">
+        <img width="75" height="75" src="https://github.com/realslimshanky.png?s=150">
         <br>
         <a href="https://github.com/realslimshanky">Shashank Kumar</a>
       </td>
       <td align="center" valign="top">
-        <img width="150" height="150" src="https://github.com/ritikrishu.png?s=150">
+        <img width="75" height="75" src="https://github.com/ritikrishu.png?s=150">
         <br>
         <a href="https://github.com/ritikrishu">Ritik Rishu</a>
       </td>

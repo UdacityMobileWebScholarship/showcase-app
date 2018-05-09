@@ -49,7 +49,13 @@ Open folder you want to clone this repo into, then-
 * Backend
  //TODO: init proj and add docs
 
- 
+### How to use styles or SASS
+1. Just run the development environment or production environment as usual with npm start and npm run build.
+2. Create your SCSS files with an extension .scss and start writing SASS e.g. Button.scss.
+3. While importing, use import './Button.css' (important since this is how it's done in CRA)
+
+**Note**: We're ignoring `*.css` files by default because they will automatically be generated. So, if you try to add CSS files, you will not see them in the git status.
+
 <h2 align="center">Moderators</h2>
 
 <table>

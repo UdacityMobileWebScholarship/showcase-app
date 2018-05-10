@@ -1,6 +1,6 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# sass files
+# css generated files
 **/*.css
 ./App.css
 

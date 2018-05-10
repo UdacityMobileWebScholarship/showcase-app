@@ -2,6 +2,7 @@
 
 # sass files
 **/*.css
+App.css
 
 # dependencies
 /node_modules

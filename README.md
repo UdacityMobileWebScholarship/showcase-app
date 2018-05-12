@@ -38,11 +38,11 @@ We are using Github labels to categorize issues and pull requests.
 Open folder you want to clone this repo into, then-
 * Frontend
     * `git clone https://github.com/UdacityMobileWebScholarship/showcase-app.git`
-    * `cd showcase-app/client`
-    * `yarn install` - to install project dependencies
-    * `yarn start` - to run development build
-    * `yarn build` - to build prod release
-    * `yarn test` - Launches the test runner in the interactive watch mode
+    * `cd showcase-app`
+    * `npm install` - to install project dependencies
+    * `npm start` - to run development build
+    * `npm build` - to build prod release
+    * `npm test` - Launches the test runner in the interactive watch mode
 
 > Note: the front end app is bootstrap using [Create React App](https://github.com/facebook/create-react-app). You can find more details about architecture [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md). See [Project Wiki Page](https://github.com/UdacityMobileWebScholarship/showcase-app/wiki/Client-Project-set-up).
 

@@ -10,6 +10,7 @@ import Typography from 'material-ui/Typography';
 import { withStyles } from 'material-ui/styles';
 import withRoot from "./withRoot";
 import './App.css';
+import Tile from './components/Tiles/Tiles';
 
 const styles = theme => ({
   root: {
@@ -17,7 +18,6 @@ const styles = theme => ({
     paddingTop: theme.spacing.unit * 20,
   },
 });
-
 class App extends React.Component {
   state = {
     open: false,

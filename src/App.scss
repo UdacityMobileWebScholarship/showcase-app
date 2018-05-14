@@ -33,3 +33,20 @@ body {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.title {
+  padding-top: 13px;
+  padding-left: 17px;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+}
+
+.description {
+  font-size: 0.8em;
+  text-align: left;
+  padding: 13px 17px;
+  font-weight: normal;
+  color: black;
+  margin-left: 0px;
+} 

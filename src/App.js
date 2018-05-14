@@ -6,6 +6,9 @@ import Dialog, {
   DialogContentText,
   DialogActions,
 } from 'material-ui/Dialog';
+
+import { DetailCard } from './DetailCard/DetailCard';
+
 import Typography from 'material-ui/Typography';
 import { withStyles } from 'material-ui/styles';
 import withRoot from "./withRoot";
@@ -61,6 +64,31 @@ class App extends React.Component {
         <Button variant="raised" color="secondary" onClick={this.handleClick}>
           Test Popup
         </Button>
+
+        <DetailCard onClick={this.handleClick} detail={true} detailText="Read More">
+          <div className="title">This is the title</div>
+          <div className="description">
+            Eiusmod labore nisi excepteur dolor tempor non ad commodo eu nulla in.
+            Culpa aute incididunt deserunt Lorem non tempor esse sunt aliquip.
+            In consectetur ullamco irure culpa duis sunt. Fugiat dolore Lorem cupidatat
+            et ex adipisicing proident minim.
+          </div>
+        </DetailCard>
+
+        <DetailCard onClick={this.handleClick} detail={false} detailText="">
+          <div className="title">Card 2</div>
+          <div className="description">
+            Card 2 goes here
+          </div>
+        </DetailCard>
+
+        <DetailCard onClick={this.handleClick} detail={true} detailText="More Info">
+          <div className="title">Card 3</div>
+          <div className="description">
+            Card 3 goes here
+          </div>
+        </DetailCard>
+
       </div>
     );
   }

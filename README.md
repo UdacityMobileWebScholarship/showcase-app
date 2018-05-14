@@ -38,7 +38,7 @@ We are using Github labels to categorize issues and pull requests.
 Open folder you want to clone this repo into, then-
 * Frontend
     * `git clone https://github.com/UdacityMobileWebScholarship/showcase-app.git`
-    * `cd showcase-app/client`
+    * `cd showcase-app`
     * `yarn install` - to install project dependencies
     * `yarn start` - to run development build
     * `yarn build` - to build prod release

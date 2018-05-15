@@ -2,12 +2,16 @@
   width: 150px;
   height: 150px;
   border-radius: 5px;
-  box-shadow: 0px 0px 15px 0px;
-  padding-top: 65px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  margin: 0 10px;
 }
 
 .tile-span-style {
   color: white;
+  font-size: 20px;
   font-weight: 700;
 }

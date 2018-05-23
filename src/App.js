@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import Button from 'material-ui/Button';
 import Dialog, {
   DialogTitle,
@@ -15,16 +15,23 @@ import withRoot from "./withRoot";
 import './App.css';
 import Tile from './components/Tiles/Tiles';
 
+import { FirebaseHelper } from './sdk'
+
 const styles = theme => ({
   root: {
     textAlign: 'center',
     paddingTop: theme.spacing.unit * 20,
   },
 });
-class App extends React.Component {
-  state = {
-    open: false,
-  };
+class App extends PureComponent {
+  constructor(props) {
+    super(props)
+    this.state = {
+      open: false,
+      userDetails: FirebaseHelper.getCurrentUser()
+    }
+  }
+
 
   handleClose = () => {
     this.setState({
@@ -33,14 +40,23 @@ class App extends React.Component {
   };
 
   handleClick = () => {
-    this.setState({
-      open: true,
-    });
+    const { userDetails } = this.state
+    if (Boolean(userDetails)) {
+      FirebaseHelper.signOut()
+        .then(_ => this.setState({ userDetails: null }))
+        .catch(_ => _)
+    }
+    else {
+      FirebaseHelper.signIn()
+        .then(userDetails => this.setState({ userDetails }))
+        .catch(console.log)
+    }
   };
 
   render() {
     const { classes } = this.props;
-    const { open } = this.state;
+    const { open, userDetails } = this.state;
+    const userSignedIn = Boolean(userDetails);
 
     return (
       <div className={classes.root}>
@@ -62,16 +78,21 @@ class App extends React.Component {
           Showcase App
         </Typography>
         <Button variant="raised" color="secondary" onClick={this.handleClick}>
-          Test Popup
+          {userSignedIn ? `Sign out` : `Sign in`}
         </Button>
 
         <DetailCard onClick={this.handleClick} detail={true} detailText="Read More">
-          <div className="title">This is the title</div>
+          <div className="title">{
+            userSignedIn
+              ? `🎉🎉 Yay! you are authorized through GitHub 🎉🎉`
+              : `Click on Sign In Button to authorize yourself`;
+          }</div>
           <div className="description">
-            Eiusmod labore nisi excepteur dolor tempor non ad commodo eu nulla in.
-            Culpa aute incididunt deserunt Lorem non tempor esse sunt aliquip.
-            In consectetur ullamco irure culpa duis sunt. Fugiat dolore Lorem cupidatat
-            et ex adipisicing proident minim.
+            {
+              userSignedIn
+                ? JSON.stringify(userDetails)
+                : `You are not yet authorized`
+            }
           </div>
         </DetailCard>
 

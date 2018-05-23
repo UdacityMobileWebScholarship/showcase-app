@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase": "^5.0.3",
     "material-ui": "next",
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.3",
